@@ -1,8 +1,5 @@
-
 localStorage.clear();
-
 sessionStorage.clear();
-
 
 /*
 TODO this needs to remove more cookies
@@ -12,7 +9,6 @@ tries:
    .document.domain
    document.domain
 */
-
 document.cookie.split(';')
    .map(s => s.split('=')[0])
    .map(s => ''.trim.apply(s))
